@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+  <TableRow >
+      <Button android:layout_width="0dp"
+          android:layout_weight="1"
+          android:textColor="@color/colorPrimaryDark"
+          android:background="@color/colorAccent"
+          android:text="Row1"
+          android:layout_margin="10dp"></Button>
+  </TableRow>
+    <TableRow>
+        <Button android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"
+            android:text="Row2\nCol1"
+            android:layout_margin="10dp"></Button>
+        <Button android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"
+            android:text="Row2\nCol2"
+            android:layout_margin="10dp"></Button>
+    </TableRow>
+    <TableRow>
+        <Button android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"
+            android:text="Row3\nCol1"
+            android:layout_margin="10dp"></Button>
+        <Button android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"
+            android:text="Row3\nCol2"
+            android:layout_margin="10dp"></Button>
+        <Button android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"
+            android:text="Row3\nCol3"
+            android:layout_margin="10dp"></Button>
+    </TableRow>
+    <TableRow>
+        <Button android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"
+            android:text="Row4"
+            android:layout_margin="10dp"></Button>
+    </TableRow>
+</TableLayout>
